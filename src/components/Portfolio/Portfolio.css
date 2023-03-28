@@ -1,0 +1,21 @@
+h2{
+    color: black;
+    font-size: 3.5rem !important;
+}
+
+.w-55{
+    width: 55% !important;
+    
+}
+.overlayLayer{
+    background-color: #1abc9c;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+.overlayLayer:hover{
+    opacity: 0.8;
+}
